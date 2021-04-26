@@ -75,3 +75,14 @@
                 a:hover {
                     color: white;
                 }
+                
+                .nav-bar {
+                    position: fixed;
+                    max-width: 8%;
+                    height: 75%;
+                    background-color: black;
+                }
+                
+                li>a {
+                    color: white;
+                }

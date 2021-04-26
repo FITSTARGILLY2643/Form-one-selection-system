@@ -1,0 +1,24 @@
+body {
+    background-color: lightseagreen;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.landing {
+    text-align: center;
+}
+
+.nav-bar {
+    position: fixed;
+    max-width: 8%;
+    height: 75%;
+    background-color: black;
+}
+
+li>a {
+    color: white;
+}
