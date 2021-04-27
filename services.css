@@ -1,0 +1,13 @@
+.nav-bar {
+  /* position: fixed; */
+  max-width: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.753);
+  float: left;
+}
+li>a{
+  color: white;
+}
+.nav{
+  background-color: black;
+}
