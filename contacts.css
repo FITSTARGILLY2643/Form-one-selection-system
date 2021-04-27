@@ -1,0 +1,9 @@
+.nav-bar {
+    position: fixed;
+    max-width: 8%;
+    height: 100%;
+    background-color: grey;
+}
+li>a{
+    color: white;
+}
