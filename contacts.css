@@ -16,16 +16,8 @@ li>a{
   .contact-us > h1{
     padding-top: 40px;
     padding-bottom: 20px;
-}
+  }
 
-#name{
-  width: 30%;
-  margin-left: 18%;
-  margin-right: 30px;
-}
-#email{
-  width: 30%;
-}
 input[placeholder], [placeholder], *[placeholder]{
     color: white;
 }
@@ -39,3 +31,19 @@ input[type=text],input[type=email],#textarea{
   :-ms-input-placeholder{
       color: #ebdbdb;
   }
+  
+
+
+
+#name{
+  width: 30%;
+  margin-right: 30px;
+}
+#email{
+  width: 30%;
+}
+#textarea{
+  margin-left: 20%;
+  margin-right: 30%;
+  width: 51%;
+}
