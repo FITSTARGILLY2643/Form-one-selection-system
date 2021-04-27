@@ -19,3 +19,13 @@ li>a{
   float: right;
   padding-right: 500px;
 }
+#image2{
+  width:200px;
+  height: 200px;
+  border: 1px solid rgba(0, 238, 255, 0.932);
+  margin-left: 220px;
+  box-shadow: 0 0 0 0.1rem;
+}
+.p1{
+  padding-left: 250px;
+}
