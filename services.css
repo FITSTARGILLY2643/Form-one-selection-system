@@ -1,13 +1,21 @@
 .nav-bar {
-  /* position: fixed; */
-  max-width: 5%;
+  position: fixed;
+  max-width: 15%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.753);
+  background-color: black;
   float: left;
 }
 li>a{
   color: white;
 }
-.nav{
-  background-color: black;
+.links{
+  padding: 20px;
+  padding-top: 200px;
+}
+.image1{
+  padding-top: 10px;
+}
+.services{
+  float: right;
+  /* padding-right: 5px; */
 }
