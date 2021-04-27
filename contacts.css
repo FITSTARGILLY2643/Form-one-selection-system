@@ -7,9 +7,7 @@
 li>a{
     color: white;
 }
-#botton{
-    margin-left: 40%;
-}
+
 #textarea{
     margin-left: 20%;
     margin-right: 30%;
@@ -19,6 +17,7 @@ li>a{
   .contact-us > h1{
     padding-top: 40px;
     padding-bottom: 20px;
+    
   }
 
 input[placeholder], [placeholder], *[placeholder]{
@@ -39,14 +38,15 @@ input[type=text],input[type=email],#textarea{
 
 
 #name{
-  width: 30%;
+  width: 32%;
   margin-right: 30px;
 }
 #email{
-  width: 30%;
+  width: 32%;
 }
 #textarea{
-  margin-left: 20%;
-  margin-right: 30%;
+  margin-left: 320px;
   width: 51%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
