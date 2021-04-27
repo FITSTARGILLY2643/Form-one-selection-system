@@ -7,3 +7,44 @@
 li>a{
     color: white;
 }
+#textarea{
+    margin-left: 20%;
+    margin-right: 30%;
+    width: 60%;
+  }
+
+  .contact-us > h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#name{
+  width: 30%;
+  margin-left: 18%;
+  margin-right: 30px;
+}
+#email{
+  width: 30%;
+}
+input[placeholder], [placeholder], *[placeholder]{
+    color: white;
+}
+
+input[type=text],input[type=email],#textarea{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+  :-ms-input-placeholder{
+      color: #ebdbdb;
+  }
+  .contact-us{
+    font-family: Copse;
+    background-image: url(./assets/backgrounds/c_image.jpg);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 30px;
+}  
