@@ -1,6 +1,6 @@
 .nav-bar {
   position: fixed;
-  max-width: 15%;
+  max-width: 10%;
   height: 100%;
   background-color: black;
   float: left;
@@ -17,5 +17,5 @@ li>a{
 }
 .services{
   float: right;
-  /* padding-right: 5px; */
+  padding-right: 500px;
 }
