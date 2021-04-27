@@ -39,12 +39,3 @@ input[type=text],input[type=email],#textarea{
   :-ms-input-placeholder{
       color: #ebdbdb;
   }
-  .contact-us{
-    font-family: Copse;
-    background-image: url(./assets/backgrounds/c_image.jpg);
-    text-align: center;
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-bottom: 30px;
-}  
