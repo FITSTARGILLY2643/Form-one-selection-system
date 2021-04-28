@@ -1,11 +1,4 @@
 
-  // $(document).ready(function() {
-  //   $("#place0").click(function() {
-  //     $("#nairobi").text().show();
-      
-  //   });
-  // });
-
   $(document).ready(function() {
     $("#column_select").change(function () {
         $("#layout_select")
@@ -18,3 +11,5 @@
         
     }).change();
 });
+
+
