@@ -14,6 +14,8 @@ var student = [{
 
 ]
 
+
+
 function getInfo() {
     var index = document.getElementById("index-L").value;
     var password = document.getElementById("password-L").value
@@ -31,3 +33,34 @@ function getInfo() {
     }
 
 }
+
+// function Student(index, password) {
+//     this.studentIndex = index;
+//     this.studentPassword = password;
+
+// }
+
+// $(document).ready(function() {
+
+//             $("form#myform").submit(function(event) {
+//                     event.preventDefault();
+
+//                     // Get register details
+//                     var inputtedIndex = $("input#index").val();
+//                     var inputtedPassword = $("input#password1").val();
+//                     var newStudent = new Student(inputtedIndex, inputtedPassword);
+
+//                     // Get login details
+//                     var index = document.getElementById("index-L").value;
+//                     var password = document.getElementById("password-L").value
+
+//                     if (index == newStudent.index && password == newStudent.password) {
+//                         alert("You are logged in");
+
+
+//                     }
+
+//                 }
+
+
+//             });
