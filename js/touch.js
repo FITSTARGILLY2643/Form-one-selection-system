@@ -9,3 +9,8 @@ $("#column_select").change(function () {
 
 }).change();
 
+$(document).ready(function(){
+    $("button").click(function(){
+      $("#box").show();
+    });
+  });
