@@ -1,7 +1,7 @@
 .container{
   margin-top: 3%;
   padding-top: 2%;
-  box-shadow: 0 0 5px 2px grey;
+  box-shadow: 0 0 5px 1px #3aafa9;
   height: 550px;
 }
 .paragraph{
@@ -22,4 +22,7 @@
 }
 #submit{
   margin-top: 30px;
+}
+#school{
+  display: none;
 }

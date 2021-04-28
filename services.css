@@ -1,8 +1,11 @@
+body{
+  background-color: #3aafa9;
+}
 .nav-bar {
   position: fixed;
   max-width: 10%;
   height: 100%;
-  background-color: black;
+  background-color: grey;
   float: left;
 }
 li>a{
@@ -10,7 +13,7 @@ li>a{
 }
 .links{
   padding: 20px;
-  padding-top: 200px;
+  /* padding-top: 200px; */
 }
 .image1{
   padding-top: 10px;
@@ -49,5 +52,26 @@ li>a{
   clear: both;
   margin-left: 200px;
   padding-top: 30px;
+  font-weight: bold;
 }
-
+#p-text{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.596);
+  padding: 40px;
+  color: #3aafa9;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.p2{
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  
+}
