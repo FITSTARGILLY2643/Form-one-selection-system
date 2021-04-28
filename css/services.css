@@ -3,14 +3,14 @@ body{
 }
 .nav-bar {
   position: fixed;
-  max-width: 6%;
+  max-width: 10%;
   height: 100%;
   background-color: grey;
+  float: left;
 }
 li>a{
   color: white;
 }
-
 .links{
   padding: 20px;
   /* padding-top: 200px; */
