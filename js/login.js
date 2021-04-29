@@ -21,7 +21,7 @@ $(document).ready(function() {
             return false;
         } else {
             // alert("Login successfully");
-            window.open('selection.html');
+            window.open('form.html');
         }
     }
 })
