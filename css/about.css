@@ -11,7 +11,7 @@ body{
     position: fixed;
     max-width: 8%;
     height: 100%;
-    background-color: grey;
+    background-color: rgb(83, 81, 81);
 }
 li>a{
     color: white;
