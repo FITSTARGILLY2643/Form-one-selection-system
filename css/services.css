@@ -57,13 +57,14 @@ li>a{
 #p-text{
   display: none;
   background-color: rgba(0, 0, 0, 0.596);
-  padding: 40px;
+  padding: 70px;
+  margin-right: 75%;
   color: #3aafa9;
   font-size: 20px;
   font-weight: bold;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 53%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
