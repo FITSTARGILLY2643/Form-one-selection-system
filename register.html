@@ -8,9 +8,7 @@
     <title>Form one selection</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-
-
+    <link rel="stylesheet" href="css/register.css" type="text/css">
 
 </head>
 
@@ -28,7 +26,7 @@
                 <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+                <a class="nav-link" href="service.html">Services</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="register.html">Register</a>
@@ -37,47 +35,48 @@
                 <a class="nav-link" href="login.html">Login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="contacts.html">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
     </div>
 
     <div class="container">
 
-        <div class="row" id="home">
+        <br>
+        <br>
+        <h1>Register</h1>
 
-            <div class="col-md-2"><br><br><br><br><br>
-                <p class="description">Dateline for selection is 30TH June 2021</p>
+        <form id="register" action="login.html">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="First name" required>
+
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lname" placeholder="Last Name" required><br><br>
+
+            <label for="email"></label>
+            <input type="text" id="email" name="email" placeholder="Email" required>
+
+            <label for="index"></label>
+            <input type="number" id="index" name="index" placeholder="Index No" required><br><br>
+
+            <label for="password"></label>
+            <input type="password" id="password" name="password-1" placeholder="Password" required>
+
+            <label for="password"></label>
+            <input type="password" id="cpassword" name="password-2" placeholder="Confirm Password" required><br><br>
 
 
-            </div>
+            <input type="checkbox" id="terms" name="terms" value="terms">I agree to the Terms and Conditions<br><br>
 
+            <input type="submit" value="Signup" id="register" class="register">
+            <a href="login.html">Already have an account? Click to login</a><br><br>
 
-            <div class="col-md-6">
-                <h1>From One Selection System</h1>
-                <div class="landing">
-                    <img src="/img/edu-1.jpeg" alt="Home background" height="250px" width="480px"><br><br>
-
-                    <p class="rule">First Come First Serve</p>
-                </div>
-
-            </div>
-
-
-            <div class="col-md-4"><br><br><br><br><br>
-                <p class="description">You already have your results and wondering how get admitted?</p>
-                <p class="description">Don't panic, you are in the right place</p>
-                <p class="description">You will be able to select school of your choice at your comfort zone</p>
-
-            </div>
-
-        </div>
+        </form>
 
     </div>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js " integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin=" anonymous "></script>
-
     <script src="js/register.js"></script>
 
 </body>
