@@ -19,8 +19,8 @@ li>a{
   padding-top: 10px;
 }
 .services{
-  float: right;
-  padding-right: 500px;
+  text-align: center;
+  padding-left: 500px;
 }
 .container{
   width: 100%;
@@ -44,13 +44,13 @@ li>a{
   height: 200px;
   box-shadow: 0px 0px 5px 3px grey;
  
-  float:right;
+  margin-left: 40%;
   margin-right: 180px;
   clear: both;
 }
 .p3{
   clear: both;
-  margin-left: 200px;
+  margin-left: 350px;
   padding-top: 30px;
   font-weight: bold;
 }
@@ -58,12 +58,14 @@ li>a{
   display: none;
   background-color: rgba(0, 0, 0, 0.596);
   padding: 40px;
+  padding-right: 5px;
+  padding-left: 5px;
   color: #3aafa9;
   font-size: 20px;
   font-weight: bold;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 35%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
