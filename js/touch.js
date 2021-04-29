@@ -7,10 +7,15 @@ $("#column_select").change(function () {
     $("#layout_select").val(
         $("#layout_select").find("option:visible:first").val());
 
+        $("button").click(function(event){
+          $("#box").show();
+          event.preventDefault()
+        });
+
 }).change();
 
-$(document).ready(function(){
-    $("button").click(function(){
-      $("#box").show();
-    });
-  });
+
+// $(document).ready(function(){
+    
+//   });
+
